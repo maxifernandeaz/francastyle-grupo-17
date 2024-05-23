@@ -1,0 +1,70 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  header {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  .video {
+    width: 100%; /* El ancho de la sección será el 100% del contenedor padre */
+    display: flex; /* Activa el modo flexbox para el contenedor */
+    justify-content: center; /* Centra el video horizontalmente */
+    align-items: center; /* Centra el video verticalmente */
+}
+
+video {
+    max-width: 100%; /* Permite que el video se ajuste al ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto del video */
+}
+
+
+
+
+
+
+  footer {
+    background-color: black;
+  }
+  
+  @media (max-width:900px) {
+    header {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+  }
+
+  @media (max-width:700px) {
+    header {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+  }

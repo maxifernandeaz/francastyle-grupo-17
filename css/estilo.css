@@ -1,0 +1,184 @@
+/* Reinicio CSS */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antiliased;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #777;
+
+}
+
+
+
+
+input,
+button,
+textarea,
+select {
+    font: inherit
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/* estilo encabezado */
+header {
+    margin: 2em;
+    
+}
+
+..navbar-expand-sm .navbar-collapse  .nav-link img {
+    color: rgb(51, 51, 51);
+}
+.nav-link a:hover {
+    color: #ff9f0d;
+}
+
+.nav-link a img a:active {
+    color: #ff9f0d;
+}
+
+
+
+
+/* carrousel */
+
+.c-item {
+    height: 480px;
+
+}
+
+.c-img {
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+/* Estilo cuerpo */
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 15px;
+}
+
+/*
+.card-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    
+    
+}
+
+*/
+
+.card-productos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 1200px;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.card {
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.10);
+}
+
+/*Estilo footer*/
+
+
+footer {
+
+
+    background-color: rgb(12, 11, 11);
+}
+
+footer .container ul li a:hover {
+    color: #ff9f0d
+}
+
+footer .container ul li a:active {
+    color: #ff9f0d
+}
+
+
+
+
+
+
+@media(max-width:991px) {
+    .card-productos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 700px;
+
+
+    }
+}
+
+
+@media(max-width:767px) {
+    .card-productos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}
+
+@media(min-width:481px) and (max-width:767px) {
+    .carousel-item {
+        max-height: 300px;
+    }
+}
+
+@media(min-width: 320px) and (max-width:480px) {
+
+.carousel-item {
+    max-height: 250px;
+}
+
+}
+
+
+/*
+ header {
+        width: 100%;
+        ;
+        height: 9%;
+    }
+*/

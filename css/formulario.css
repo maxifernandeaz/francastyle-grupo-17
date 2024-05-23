@@ -1,0 +1,169 @@
+* Reinicio CSS */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antiliased;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+
+}
+
+
+
+
+input,
+button,
+textarea,
+select {
+    font: inherit
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+header {
+    margin: 2em;
+    
+}
+
+.form-list {
+    background-color:rgb(12, 11, 11);
+    color: white;
+    border-radius: 3px;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="radio"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px; /* Espacio entre inputs */
+}
+
+input[type="reset"],
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #f5890ec2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px; /* Espacio entre botones */
+}
+
+
+
+
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color: #f5890ec2;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px; /* Espacio entre checkbox/radio y label */
+}
+
+
+/* Estilo para el título del formulario */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+footer {
+    margin-top: 15px;
+  
+
+
+    background-color: rgb(12, 11, 11);
+    margin-top: 150;
+}
+
+footer .container ul li a:hover {
+    color: #ff9f0d
+}
+
+footer .container ul li a:active {
+    color: #ff9f0d
+}
+
+
+
+
+
+
+@media(max-width:991px) {
+    .card-productos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 700px;
+
+
+    }
+}
+
+
+@media(max-width:767px) {
+    .card-productos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}
+
+@media(min-width:481px) and (max-width:767px) {
+    .carousel-item {
+        max-height: 300px;
+    }
+}
+
+@media(min-width: 320px) and (max-width:480px) {
+
+.carousel-item {
+    max-height: 250px;
+}
+
+}

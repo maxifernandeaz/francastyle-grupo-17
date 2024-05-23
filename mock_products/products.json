@@ -1,0 +1,56 @@
+[
+    {
+        "id":"1",
+        "photo":"/mock_products/Archivo 1.png",
+        "title":"Buzo Trancastyle",
+        "price":"3999.0"
+    },
+    {
+        "id":"2",
+        "photo":"/mock_products/Archivo 2.jpg",
+        "title":"Buzo Trancastyle",
+        "price":"5000"
+    },
+    {
+        "id":"3",
+        "photo":"/mock_products/Archivo 3.png",
+        "title":"Buzo Trancastyle",
+        "price":"3999"
+    },
+    {
+        "id":"4",
+        "photo":"/mock_products/Archivo 4.png",
+        "title":"Joggin Trancastyle",
+        "price":"2980"
+    },
+    {
+        "id":"5",
+        "photo":"/mock_products/Archivo 5.png",
+        "title":"Buzo Trancastyle",
+        "price":"3999"
+    },
+    {
+        "id":"6",
+        "photo":"/mock_products/Archivo 6.png",
+        "title":"Buzo Trancastyle",
+        "price":"3999"
+    },
+    {
+        "id":"7",
+        "photo":"/mock_products/Archivo 7.png",
+        "title":"Buzo Trancastyle",
+        "price":"3999"
+    },
+    {
+        "id":"8",
+        "photo":"/mock_products/Archivo 8.png",
+        "title":"Buzo Trancastyle",
+        "price":"3999.0"
+    },
+    {
+        "id":"9",
+        "photo":"/mock_products/Archivo 9.png",
+        "title":"Buzo Trancastyle",
+        "price":"2500"
+    }
+]
