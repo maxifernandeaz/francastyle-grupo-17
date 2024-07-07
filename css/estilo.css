@@ -49,7 +49,7 @@ header {
     
 }
 
-..navbar-expand-sm .navbar-collapse  .nav-link img {
+.navbar-expand-sm .navbar-collapse  .nav-link img {
     color: rgb(51, 51, 51);
 }
 .nav-link a:hover {
