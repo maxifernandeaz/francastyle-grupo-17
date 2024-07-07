@@ -18,6 +18,10 @@ body {
     margin: 0 auto;
     padding: 20px;
   }
+  .container_cuerpo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   
   section {
     margin-bottom: 20px;
@@ -30,7 +34,8 @@ body {
   p {
     text-align: justify;
   }
-  .video {
+  .video-container {
+    position: relative;
     width: 100%; /* El ancho de la sección será el 100% del contenedor padre */
     display: flex; /* Activa el modo flexbox para el contenedor */
     justify-content: center; /* Centra el video horizontalmente */
